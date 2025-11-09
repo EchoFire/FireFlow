@@ -1,0 +1,15 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and config
+.env
+.venv/
+env/
+venv/
+*.log
+
+# Data files (large or generated)
+data/**/*.csv
