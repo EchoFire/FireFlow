@@ -9,7 +9,8 @@ Note:
 - CSV exports are ignored in version control (`.gitignore`).
 - You can reproduce the environment using.
 ```bash
-conda env export --from-history > environment.yml
+conda env create -f environment.yml -n fire-etl
+conda activate fire-etl
 ```
 ## Project Structure
 
