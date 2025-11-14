@@ -21,7 +21,7 @@ conda activate fire-etl
 ├── extract_transform_load_data_1.ipynb
 ├── extract_transform_load_data_2.ipynb
 ├── environment.yml   # Conda environment definition
-├── .gitignore        # Ignore large data & temp files
+├── .gitignore        
 └── README.md
 ```
 
