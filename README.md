@@ -6,7 +6,6 @@ The project integrates multiple geospatial datasets from **Google Earth Engine (
 
 Note: 
 - All heavy computations are performed on servers such **Google Earth Engine** or **Meteostat**.
-- CSV exports are ignored in version control (`.gitignore`).
 - You can reproduce the environment using.
 ```bash
 conda env create -f environment.yml -n fire-etl
@@ -19,10 +18,8 @@ conda activate fire-etl
 │   ├── csv/          # Processed exports from Earth Engine & Meteostat
 │   ├── geojson/      # Country grid and geometry inputs
 │   └── ...
-├── notebooks/
-│   ├── extract_transform_load_data_1.ipynb
-│   ├── extract_transform_load_data_2.ipynb
-│   └── ...
+├── extract_transform_load_data_1.ipynb
+├── extract_transform_load_data_2.ipynb
 ├── environment.yml   # Conda environment definition
 ├── .gitignore        # Ignore large data & temp files
 └── README.md
